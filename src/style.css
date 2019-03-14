@@ -1,0 +1,156 @@
+body{
+
+background:hsl(218,28%,13%);
+}
+
+
+
+.nav-bar{
+
+	
+	font-family:Raleway;
+	float: right;
+	position: relative;
+	top: 10px;
+	font-size: 18px;
+}
+
+
+.flex-container{
+
+	display: flex;
+	padding-top: 100px;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+h1,h2,h3,h4,h6,p,span,a{
+
+	color: hsl(0, 0%, 100%);
+}
+
+
+
+#illustration-intro{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.get-started{
+
+background-color: hsl(198, 60%, 50%);
+color:white;
+width: 330px;
+height: 60px;
+border-radius: 28px;
+font-size: 19px;
+margin: auto;
+border: none;
+font-weight: bold;
+
+
+}
+
+.advantages-flex-container{
+
+	display: grid;
+
+     grid-template-columns: auto auto;
+
+     grid-gap: 300px;
+
+	justify-content: center;
+
+}
+
+.right-side{
+
+
+	grid-column-start: -1;
+
+}
+
+.stay_productive{
+
+
+	display: grid;
+
+	margin-top: 100px;
+
+	grid-template-columns: auto auto;
+
+	grid-template-rows: auto;
+
+	grid-gap:100px;
+
+	justify-content: center;
+}
+
+
+
+#stay_productive_desc{
+margin-top: 100px;
+	
+}
+
+.testimonies{
+
+
+	display: grid;
+
+	grid-template-columns: auto auto auto;
+
+	margin-top: 180px;
+
+	grid-gap: 50px;
+}
+
+.testimonies>div{
+
+	 background-color:hsl(219, 30%, 18%);
+
+	 font-size: 18px;
+
+	 font-weight: 700;
+
+	 font-family:open-sans;
+
+	 padding: 30px;
+}
+
+.testimonies > div > img{
+
+	border-radius: 90px;
+
+	float: left;
+
+	width: 80px;
+
+
+}
+
+.testimonies > div > h6{
+
+	font-weight: 400;
+
+}
+
+footer{
+
+	display: grid;
+	background-color: hsl(216, 53%, 9%);
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	margin-top: 50px;
+	padding: 100px;
+}
+
+footer >div>i{
+
+	float: left;
+}
+
+
